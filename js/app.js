@@ -21,6 +21,9 @@ window.addEventListener('load',function() {
   var nameshow = document.getElementById('nameshow');
   var selectSede = document.getElementById('select-sede');
 
+  var nameshow = document.getElementById('nameshow');
+  var selectSede = document.getElementById('select-sede');
+
 /* CÓDIGO PARA MOSTRAR SEDES Y PROMOCIONES */
   // Creamos una variable que va a guardar la lista desplegable
   var selectionSede = document.getElementById('select-sede');
@@ -47,9 +50,15 @@ window.addEventListener('load',function() {
     // console.log(nameSede);
     var nameSede = document.getElementById('optgroupsede' + i).label;
 
+<<<<<<< HEAD
 
     var arrayNumberStudentsActiveforSede = [];
     // Recorremos las promociones
+=======
+
+    var arrayNumberStudentsActiveforSede = [];
+    // Recorremos las promociones
+>>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
     for (var j = 0; j < valuesofPromsforSede.length; j++) {
       // Creamos un elemento para mostrar las promociones
       var optionproms = document.createElement('option');
