@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: 'Montserrat'
 }
 
 .header-logo{
@@ -29,3 +30,66 @@
 }
 
 /*estilo students*/
+.specializations{
+  float: left;
+  position: relative;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 21px;
+  font-size: 18px;
+  height: 100%;
+  font-family: 'Montserrat';
+}
+
+.search-box {
+  padding-top: 21px;
+}
+
+.search-box input {
+  width: 700px;
+}
+
+.students-container {
+  width: 67%;
+  float: left;
+  padding-top: 21px;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 20px;
+  position: relative;
+}
+
+.student-picture{
+  max-width: none;
+  display: inline-block;
+}
+.student-picture img {
+  width: 123px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+}
+
+.student-info {
+  float: left;
+  display: inline-block;
+}
+
+.student-skills {
+  list-style: none;
+  background-color: #e1e1e1;
+  padding: 5px;
+  float: left;
+  display: inline-block;
+}
+
+.student-skills li {
+  display: inline-block;
+}
+
+.percents {
+  float: left;
+  background-color: #e1e1e1;
+  color: #000;
+}
