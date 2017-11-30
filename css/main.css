@@ -2,7 +2,9 @@
   box-sizing: border-box;
   font-family: 'Montserrat'
 }
-
+ body {
+   background-color: #f7f7f7;
+ }
 .header-logo{
   width: 30%;
 }
@@ -39,6 +41,7 @@
   font-size: 18px;
   height: 100%;
   font-family: 'Montserrat';
+  background-color: #fff;
 }
 
 .search-box {
@@ -49,6 +52,11 @@
   width: 700px;
 }
 
+.student {
+  display: block;
+  padding-right: 100px;
+}
+
 .students-container {
   width: 67%;
   float: left;
@@ -56,29 +64,31 @@
   padding-left: 0;
   padding-right: 0;
   margin-right: 20px;
+  margin-top: 21px;
   position: relative;
+  outline: 1px solid red;
+  background-color: #fff;
 }
 
 .student-picture{
   max-width: none;
-  display: inline-block;
 }
 .student-picture img {
   width: 123px;
   margin: 0;
   padding: 0;
-  position: relative;
+  position: absolute;
 
 }
 
 .student-info {
   float: left;
   display: inline-block;
+  margin-left: 150px;
 }
 
 .student-skills {
   list-style: none;
-  background-color: #e1e1e1;
   padding: 5px;
   float: left;
   display: inline-block;
@@ -86,10 +96,44 @@
 
 .student-skills li {
   display: inline-block;
+  margin-right: 5px;
+  background-color: #e1e1e1;
+  padding: 5px;
 }
 
 .percents {
   float: left;
-  background-color: #e1e1e1;
   color: #000;
+  display: block;
+  text-align: center;
+  padding-right: 150px;
+}
+
+.percents h6 {
+  margin:0;
+}
+
+.percents p {
+  margin: 0;
+}
+
+.tech-percent {
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.life-percent {
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.english-percent {
+  display: inline-block;
+  background-color: #e1e1e1;
+  margin-right: 5px;
+  padding: 10px;
 }
