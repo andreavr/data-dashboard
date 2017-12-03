@@ -7,22 +7,60 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <!-- Header -->
-    <!-- cambios logo -->
+
   <header class='contenedor-logo'>
       <img class="header-logo"src="assets/images/logo-laboratoria.svg" alt="">
 
       <a class='hamburguesa'href="assets/images/foto.png"><i class="fa fa-bars" aria-hidden="true"></i></a>
 
       <i class="fa fa-bars" aria-hidden="true"></i>
-      <h2 id= "nameshow">AREQUIPA 2016-II</h2>
+
       <select name="select-sede" id="select-sede">
       </select>
 
   </header>
   <section id="tabs">
     <select class='option' name="select-sede" id="select-sede">
-      <option selected value="0">ELIGE UNA OPCION</option>
+  <option selected value="0">ELIGE UNA OPCION</option>
+<!--
+  <select name="OS"> -->
+         <optgroup label="LIMA">
+         <option value="1">2015-I</option>
+         <option value="2">2015-II</option>
+         <option value="3">2016-I</option>
+          <option value="3">2016-II</option>
+           <option value="3">2017-I</option>
+            <option value="3">2017-II</option>
+
+     </optgroup>
+     <optgroup label="AREQUIPA">
+       <option value="1">2015-I</option>
+       <option value="2">2015-II</option>
+       <option value="3">2016-I</option>
+        <option value="3">2016-II</option>
+         <option value="3">2017-I</option>
+          <option value="3">2017-II</option>
+
+     </optgroup>
+     <optgroup label="SANTIAGO DE CHILE">
+       <option value="1">2015-I</option>
+       <option value="2">2015-II</option>
+       <option value="3">2016-I</option>
+        <option value="3">2016-II</option>
+         <option value="3">2017-I</option>
+          <option value="3">2017-II</option>
+
+     </optgroup>
+     <optgroup label="CIUDAD DE MEXICO">
+       <option value="1">2015-I</option>
+       <option value="2">2015-II</option>
+       <option value="3">2016-I</option>
+        <option value="3">2016-II</option>
+         <option value="3">2017-I</option>
+          <option value="3">2017-II</option>
+
+     </optgroup>
+
     </select>
     <ul class="tabs-container">
       <li><button type="texto" name="overview" data-tab-seleccionado='tabOverview' class='tab'>OVERVIEW</button></li>
@@ -169,6 +207,15 @@
               <div class='graph-3'>
                 <img src='assets/images/graph.png' alt='achievement'>
               </div>
+              <div class ='cuadro-10'>
+                   <h3 class=tituloCuadro-10>TEACHER RATING</h3>
+                 <div class='tablaint-11'>
+                   <h3 class='numeroCuadro-12'>4.2</h3>
+                   <p class='overall'>OVERALL TEZHER RATING<br>(CUMULATIVE)</p>
+                 </div>
+                  <div class='graph-4'>
+                    <img src='assets/images/graph.png' alt='achievement'>
+                  </div>
           </div>
       </article>
       <article id="students" class="content">

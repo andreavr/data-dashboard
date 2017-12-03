@@ -25,29 +25,13 @@ padding-bottom: 4%;
   left: 90%;
   top: 35%;
 }
-<<<<<<< HEAD
-=======
 
-
-/* Para Posicionar h2*/
 header #nameshow{
   display: inline-block;
 }
-/*fin h2*/
 
-<<<<<<< HEAD
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
-=======
-
-/* Para Posicionar h2*/
-header #nameshow{
-  display: inline-block;
-}
-/*fin h2*/
-
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
-/*estilos pestañas*/
 #tabs .tabs-container {
+
   position: relative;
   width: 100%;
   padding-bottom: 7%;
@@ -59,7 +43,7 @@ header #nameshow{
 }
 .option{
   position: absolute;
-  top: 120px;
+  top: 85px;
   margin-left: 55px;
   font-size: 1.5em;
   z-index: 4;
@@ -69,8 +53,9 @@ header #nameshow{
   position: relative;
   list-style: none;
   display: inline-block;
-  top: 70px;
+  top: 30px;
   margin-left: 1%;
+  outline: 1px solid red;
 }
 
 .tab {
@@ -82,9 +67,6 @@ header #nameshow{
   width: 100px;
 }
 
-<<<<<<< HEAD
-
-/*estilo students*/
 .section-specialization{
   position: relative;
   width: 20%;
@@ -383,9 +365,9 @@ position: absolute;
   line-height: 5px;
 }
 
-=======
+/*=======*/
 /*estilo students*/
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
+/*>>>>>>> 02586de225e8445b173ee7a68be23fe702be186f*/
 .contenedor{
   background:  #F7F7F7;
 }
@@ -404,10 +386,10 @@ position: absolute;
   margin-top: 18px;
  height: 106%;
 <<<<<<< HEAD
-=======
+/*=======*/
  outline: 1px solid purple;
 
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
+/*>>>>>>> 02586de225e8445b173ee7a68be23fe702be186f*/
 }
 .tablaint-1{
 width: 38%;
@@ -706,7 +688,6 @@ line-height: 10px;
 }
 .cuadro-8{
  display: inline-block;
-<<<<<<< HEAD
  position: relative;
  background: white;
  width: 31%;
@@ -715,15 +696,6 @@ line-height: 10px;
  padding-left: 5%;
  padding-bottom: 25%;
 
-=======
- position: static;
- background: white;
- width: 31%;
- margin-top: 18px;
- height: 200%;
- padding-left: 5%;
- padding-bottom: 16%;
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
 }
 .meeting{
   font-size: 10px;
@@ -731,14 +703,11 @@ line-height: 10px;
 .graph-2{
   position: absolute;
   display: inline-block;
-<<<<<<< HEAD
   width:300px;
   top: 40%;
-=======
-  width:250px;
-  bottom:  30%;
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
   left: 5%;
+
+  outline: 2PX solid yellow;
 }
 .cuadro-9{
   width: 31%;
@@ -747,11 +716,7 @@ line-height: 10px;
   background: white;
   position: absolute;
   padding-left: 5%;
-<<<<<<< HEAD
   height:72%;
-=======
-  height:92%;
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
 }
 .graph-3{
   position: absolute;
@@ -766,33 +731,25 @@ line-height: 10px;
   font-size: 10px;
 }
 .cuadro-10{
-  width: 30%;
-<<<<<<< HEAD
-  height:72%;
-=======
-  height: 92%;
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
-  position: absolute;
-  left: 69%;
-  top: 4%;
+  width: 95%;
+  top: 3px;
+  left: 115%;
   background: white;
+  position: absolute;
   padding-left: 5%;
+  height:100%;
 }
 .graph-4{
   position: absolute;
   display: inline-block;
   width:300px;
-<<<<<<< HEAD
   bottom:  20%;
-=======
-  bottom:  30%;
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
   left: 5%;
+  outline: 1px solid red;
 }
 .jedi{
   font-size: 10px;
 }
-<<<<<<< HEAD
 
 .tablaint-10{
 position: absolute;
@@ -817,40 +774,12 @@ top: 14%;
 }
 .tablaint-12{
 position: absolute;
-=======
-
-.tablaint-10{
-position: absolute;
-width: 11%;
-display: inline-block;
-background:#F7F7F7;
-margin-right: 9%;
-text-align: center;
-line-height: 9px;
-}
-.tablaint-11{
-position: absolute;
-width: 39%;
-display: inline-block;
-background:#F7F7F7;
-margin-right: 9%;
-text-align: center;
-line-height: 10px;
-top: 14%;
-
-}
-.tablaint-12{
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
 width: 39%;
 height: 22%;
 display: inline-block;
 background:#F7F7F7;
-margin-left:  -8px;
+margin-left:  8px;
 text-align: center;
 line-height: 9px;
-<<<<<<< HEAD
 top: 14%;;
-=======
-top: 20px;
->>>>>>> 02586de225e8445b173ee7a68be23fe702be186f
 }
